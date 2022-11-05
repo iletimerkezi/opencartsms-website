@@ -17,15 +17,15 @@ const SampleTrList  = [
 ]
 
 const SampleEnList  = [
-  "%firstname% %lastname% (%telephone%), sitenize üye oldu.",
-  "Vermiş ürün %productname%, %productquantity% adet siparişiniz alınmıştır.",
-  "Yeni bir sipariş geldi. (%orderid%,%productname%,%productmodel%,%productquantity%)",
-  "%firstname% %lastname% (%telephone%) müşteriniz %nedeni% seçeneği siparişini iptal etti.",
-  "%order_id% nolu sipariş durumunuzu kargoya giydirilmiş olarak kullanın.",
-  "%order_id% nolu siparişiniz işlendi.",
-  "%order_id% nolu siparişiniz iptal edildi.",
-  "%order_id% nolu siparişiniz tamamlandı.",
-  "%order_id% nolu siparişinizin iade işlemi doldurulur."
+  "%firstname% %lastname% (%telephone%) subscribed to your site.",
+  "Your order has been received %productname%, %productquantity% quantity of product.",
+  "A new order has arrived. (%orderid%,%productname%,%productmodel%,%productquantity%)",
+  "%firstname% %lastname% (%telephone%) your customer canceled the %reason% option order.",
+  "Use your order status %order_id% dressed in shipping.",
+  "Your order %order_id% has been processed.",
+  "Your order %order_id% has been cancelled.",
+  "Your order %order_id% has been completed.",
+  "The return process of your order with %order_id% is filled."
 ]
 
 function SMS({body}) {
